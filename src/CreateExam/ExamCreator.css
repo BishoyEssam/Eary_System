@@ -1,0 +1,78 @@
+/* Style for the form */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .question-input{
+    margin-left: 10px;
+  }
+  h1 {
+    text-align: center;
+  }
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    /* border: none; */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 225px;
+    margin-left: 20px;
+
+  }
+  .btns{
+    display: flex;
+    
+  }
+  /* Style for the question list */
+  h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  button {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* button:hover {
+    background-color: #e53935;
+  } */
+  
